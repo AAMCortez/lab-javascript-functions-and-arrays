@@ -93,6 +93,7 @@ function averageWordLength(wordsArr) {
    return result / wordsArr.length;
 }
 
+
 // Bonus - Iteration #4.1
 function avg() {}
 
@@ -111,7 +112,15 @@ const wordsUnique = [
    "bring",
 ];
 
-function uniquifyArray(wordsUnique) {}
+ function uniquifyArray(wordsUnique) {
+   /*let result = [];
+   wordsUnique.forEach((item) => {
+      if (  ) {
+         return result.push(item)
+      };
+   });
+*/
+}
 
 // Iteration #6: Find elements
 const wordsFind = [
@@ -124,8 +133,18 @@ const wordsFind = [
    "truth",
    "disobedience",
 ];
+let aWord = "machine"
 
-function doesWordExist() {}
+function doesWordExist(wordsFind, aWord) {
+   wordsFind.forEach((item) => {
+      if (wordsFind[item] === aWord) {
+         return true
+      } else {
+         item += 1
+      }
+   
+});}
+console.log(doesWordExist(wordsFind, aWord))
 
 // Iteration #7: Count repetition
 const wordsCount = [
